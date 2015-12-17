@@ -1,0 +1,83 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F884 ]
+[d frameptr 6 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 0 0 ]
+"24
+[v _memcpyee memcpyee `(v  1 e 0 0 ]
+"35 C:\Users\lukas\MPLABXProjects\PWM.X\PWM.c
+[v _main main `(i  1 e 2 0 ]
+"48
+[v _SystemInit SystemInit `(v  1 e 0 0 ]
+"66
+[v _PowerLEDHandler PowerLEDHandler `(v  1 e 0 0 ]
+"155
+[v _ISR ISR `II(v  1 e 0 0 ]
+"903 C:\Program Files (x86)\Microchip\xc8\v1.34\include\pic16f884.h
+[v _CCPR1L CCPR1L `VEuc  1 e 1 @21 ]
+"1310
+[v _OPTION_REG OPTION_REG `VEuc  1 e 1 @129 ]
+"1379
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"1501
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"1993
+[v _PR2 PR2 `VEuc  1 e 1 @146 ]
+"3314
+[v _ANSEL ANSEL `VEuc  1 e 1 @392 ]
+"3674
+[v _DC1B0 DC1B0 `VEb  1 e 0 @188 ]
+"3676
+[v _DC1B1 DC1B1 `VEb  1 e 0 @189 ]
+"3706
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"3828
+[v _RA0 RA0 `VEb  1 e 0 @40 ]
+"3830
+[v _RA1 RA1 `VEb  1 e 0 @41 ]
+"3832
+[v _RA2 RA2 `VEb  1 e 0 @42 ]
+"3868
+[v _RC2 RC2 `VEb  1 e 0 @58 ]
+"3988
+[v _T0IE T0IE `VEb  1 e 0 @93 ]
+"3990
+[v _T0IF T0IF `VEb  1 e 0 @90 ]
+"4010
+[v _T2CKPS0 T2CKPS0 `VEb  1 e 0 @144 ]
+"4012
+[v _T2CKPS1 T2CKPS1 `VEb  1 e 0 @145 ]
+"4032
+[v _TMR2ON TMR2ON `VEb  1 e 0 @146 ]
+"32 C:\Users\lukas\MPLABXProjects\PWM.X\PWM.c
+[v _delay delay `uc  1 e 1 0 ]
+"35
+[v _main main `(i  1 e 2 0 ]
+{
+"42
+} 0
+"48
+[v _SystemInit SystemInit `(v  1 e 0 0 ]
+{
+"65
+} 0
+"66
+[v _PowerLEDHandler PowerLEDHandler `(v  1 e 0 0 ]
+{
+"68
+[v PowerLEDHandler@dim dim `uc  1 s 1 dim ]
+"69
+[v PowerLEDHandler@state state `uc  1 s 1 state ]
+"153
+} 0
+"155
+[v _ISR ISR `II(v  1 e 0 0 ]
+{
+"163
+} 0
