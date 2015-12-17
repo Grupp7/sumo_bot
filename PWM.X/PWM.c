@@ -69,6 +69,7 @@ void SystemInit(void)
     CCP2M3=1;
     CCP2M2=1;
     CCPR1L=0;
+    //
     TMR2IF =0;
     TMR2ON=1;
 }
